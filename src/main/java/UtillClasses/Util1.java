@@ -69,7 +69,7 @@ public static void waitTillElementPresent(WebDriver driver, By element) {
 	
 	
 	
-	public static void moveAndClickElement() {
-		
-	}
+//	public static void moveAndClickElement() {
+//		
+//	}
 }
