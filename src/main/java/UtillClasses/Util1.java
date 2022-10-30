@@ -6,6 +6,7 @@ import java.time.Duration;
 import java.util.Properties;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -42,5 +43,11 @@ public static void waitTillElementPresent(WebDriver driver, By element) {
 		
 		return prop.getProperty(key);
 	}
-	
+
+	public static void clickByJE(WebDriver driver,WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();", element);
+		
+	}
+
 }
