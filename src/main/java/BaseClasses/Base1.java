@@ -24,7 +24,6 @@ static WebDriver driver;
 				
 //	        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gayatri\\eclipse-workspace\\Selenium\\chromedriver.exe");
 			driver = new ChromeDriver();
-			
 			}else if(browser.equals("firefox")) {
 				
 				WebDriverManager.firefoxdriver().setup();

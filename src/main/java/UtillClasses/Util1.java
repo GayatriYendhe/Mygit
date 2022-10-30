@@ -43,10 +43,11 @@ public static void waitTillElementPresent(WebDriver driver, By element) {
 		
 		return prop.getProperty(key);
 	}
-	
+
 	public static void clickByJE(WebDriver driver,WebElement element) {
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		js.executeScript("arguments[0].click();", element);
 		
 	}
+
 }
