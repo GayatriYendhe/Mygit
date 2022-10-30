@@ -43,33 +43,4 @@ public static void waitTillElementPresent(WebDriver driver, By element) {
 		return prop.getProperty(key);
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//	public static void moveAndClickElement() {
-//		
-//	}
 }
